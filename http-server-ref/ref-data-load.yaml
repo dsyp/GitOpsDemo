@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: ref-data-server
-    image: k3d-devregistry.localhost:5500/ref-http-server:latest
+    image: deepa17/flux-gitops-demo:1
     ports:
     - containerPort: 8001
     env:
