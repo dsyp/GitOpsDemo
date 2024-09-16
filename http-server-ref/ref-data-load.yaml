@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: ref-data-server
+  namespace: ref-data-server
   labels:
     app: ref-data-server
 spec:
