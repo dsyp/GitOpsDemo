@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: ref-data-server
-    image: deepa17/flux-gitops-demo:1
+    image: deepa17/flux-gitops-demo:1.0.1
     ports:
     - containerPort: 8001
     env:
